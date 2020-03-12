@@ -1,0 +1,42 @@
+:root {
+    --dark-color:#2a0268;
+    --light-color:#b8b8d1;
+    --lightest-color:#fffffb;
+    --my-color:#252733;
+}
+html , body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Didact Gothic', sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+} 
+
+nav{
+    background-color: var(--my-color);
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+#nav{
+	background-color: #252733;
+}
+#caard .img{
+	border-radius: 50%;
+}
+#logos{
+	height: 50%;
+}
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
